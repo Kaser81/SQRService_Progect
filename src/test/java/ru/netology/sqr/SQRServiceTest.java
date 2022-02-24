@@ -9,12 +9,13 @@ class SQRServiceTest {
     @Test
     void numberOfSquares() {
         SQRService service = new SQRService();
-        int startNumber = 200;
-        int endNumber = 300;
-        int expected = 3;
+        int startNumber = 400;
+        int endNumber = 700;
+        int expected = 7;
 
-        int actual = service.numberOfSquares(startNumber, endNumber);
+        int actual = service.numberOfSquares( startNumber, endNumber);
 
         assertEquals(expected, actual);
     }
 }
+
